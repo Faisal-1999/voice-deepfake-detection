@@ -48,3 +48,17 @@ Instead of relying solely on raw waveforms or uncompressed spectrograms, the pip
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+## 📂 Dataset
+
+The audio dataset used for training and evaluating this pipeline is hosted on Kaggle:
+* **Dataset Link:** [Kaggle Audio Dataset (faisalziyadahmed/audio-data-set)](https://www.kaggle.com/datasets/faisalziyadahmed/audio-data-set)[cite: 1]
+
+### Expected Directory Structure
+```text
+data/
+└── Audio/
+    ├── real/         # Genuine recorded human voices (156 samples)
+    └── fake/
+        ├── tts/      # Text-to-Speech synthesized voices (70 samples)
+        └── replay/   # Replay attack voice recordings (150 samples)
